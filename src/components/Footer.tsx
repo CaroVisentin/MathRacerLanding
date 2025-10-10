@@ -67,7 +67,7 @@ export default function AppFooter() {
     <Footer>
       <Glow />
       <Content>
-        <Logo src="/images/Logotipo.svg" alt="Math Racer logo" height={10}/>
+        <Logo src="/images/Logotipo.png" alt="Math Racer logo" height={10}/>
         <Text>© 2025 Math Racer — Todos los derechos reservados</Text>
         <Socials>
           <a

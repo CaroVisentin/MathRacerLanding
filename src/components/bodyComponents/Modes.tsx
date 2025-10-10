@@ -62,6 +62,15 @@ const P = styled.p`
   margin: 6px 0 10px;
   color: #a7b7c7;
   line-height: 1.45;
+  text-align: left;
+  span{
+    color: #22e6ff;
+    text-shadow: 0 0 12px rgba(34, 230, 255, 0.45);
+    &.rosa{
+      color: #ff57c3;
+      text-shadow: 0 0 6px rgba(255, 87, 195, 0.5);
+    }
+  }
   @media (min-width: 768px) {
     font-size: 18px;
   }
@@ -92,16 +101,10 @@ const Modes = () => {
               <H3>Modo Historia</H3>
             </Head>
             <P>
-              Mapa por mundos (15 niveles c/u). 10 aciertos para pasar; 3
-              bidones (vidas).
+              Enfrentá <span>desafíos matemáticos</span> en distintos <span>mundos</span> y <span>niveles</span>, cada uno con operaciones más complejas y menos tiempo para pensar.<br/><br/>
+              Tenés tres <span>bidones de nafta</span>: si errás una ecuación o se te acaba el tiempo, perdés uno.<br/><br/>
+              Ganá <span>monedas</span>, abrí cofres y desbloqueá <span>skins</span>, nitros y <span>mejoras</span> mientras dominás los números y <span className="rosa">dejás tu huella</span> en la pista.<br/>
             </P>
-            <List>
-              <li>Energía por intento (se regenera/monedas/anuncio)</li>
-              <li>Recompensas: moneda x nivel, cofre con skins x mundo</li>
-              <li>
-                Comodines: 🧯 eliminar opción · 🔄 cambiar ecuación · 🚀 doble
-              </li>
-            </List>
           </Card>
 
           <Card>
@@ -110,18 +113,11 @@ const Modes = () => {
               <H3>Multijugador</H3>
             </Head>
             <P>
-              Crear/Unirse/Invitar. Dificultad, privacidad y partidas
-              personalizadas.
+              Competí <span>en tiempo real</span> contra otros jugadores y probá quién tiene la mente más rápida.<br/><br/>
+              Respondé las <span>mismas ecuaciones</span> que tu rival y hacé que tu auto avance con cada acierto.<br/><br/>
+              Si errás, tu auto se <span>avería</span> y te va a tocar esperar, pero podés usar <span>comodines</span> para recuperar terreno.<br/><br/>
+              Subí en el <span>ranking</span>, ganá <span>recompensas únicas</span> y demostrá que  <span className="rosa">no hay ecuación ni piloto que te frene.</span>
             </P>
-            <List>
-              <li>Gana quien acierta 10 primero; error = 1–2s + solución</li>
-              <li>
-                {
-                  "Parámetros: operaciones, opciones (2–4), términos (2–4), X (1–2), objetivo (>, <, =)"
-                }
-              </li>
-              <li>Ranking y competitivo</li>
-            </List>
           </Card>
 
           <Card>
@@ -130,13 +126,10 @@ const Modes = () => {
               <H3>Práctica Libre</H3>
             </Head>
             <P>
-              Minijuegos: Libre multijugador y Modo infinito con escalado de
-              dificultad.
-            </P>
-            <List>
-              <li>Sumas/Restas, Básicas (+−×÷), Mayor/Menor</li>
-              <li>Combinados, Fracciones, Por tiempo</li>
-            </List>
+            Entrená a <span>tu ritmo</span> en el modo práctica libre y mejorá tu velocidad mental sin competir con nadie.<br/><br/>
+            Elegí la <span>dificultad</span>, el tipo de <span>operaciones</span> y jugá tantas veces como quieras para <span>perfeccionar</span> tus tiempos.<br/><br/>
+            Ideal para calentar motores antes de una carrera o probar nuevas <span className="rosa">estrategias</span> sin presión.
+          </P>
           </Card>
         </Grid>
       </Container>

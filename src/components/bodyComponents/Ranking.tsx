@@ -139,18 +139,21 @@ const Time = styled.span`
 
 /* CTA opcional */
 const CTA = styled.a`
-  display: block;
   margin: 16px auto 0;
-  padding: 10px 14px;
-  border-radius: 8px;
-  text-decoration: none;
   color: #071017;
-  font-weight: 800;
   background: linear-gradient(180deg, #22e6ff, #12b0c4);
   border: 1px solid rgba(34, 230, 255, 0.55);
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
   text-align: center;
   width: fit-content;
+  display: block;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: 0.25s ease;
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(34, 230, 255, 0.8);
