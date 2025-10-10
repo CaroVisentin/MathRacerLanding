@@ -75,19 +75,6 @@ const P = styled.p`
     font-size: 18px;
   }
 `;
-const List = styled.ul`
-  margin: 0 0 14px;
-  padding-left: 18px;
-  color: #c7d6e5;
-  line-height: 1.4;
-  @media (min-width: 768px) {
-    font-size: 18px;
-  }
-  li {
-    margin: 4px 0;
-  }
-  text-align: left;
-`;
 
 const Modes = () => {
   return (
